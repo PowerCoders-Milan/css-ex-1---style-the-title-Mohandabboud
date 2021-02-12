@@ -1,1 +1,57 @@
 /* Use Selectors and attributes for the HTML design */
+h1#title {
+    text-transform: none;
+    text-decoration: line-through 10px;
+    text-shadow: 1px 1px 5px blue, 0 0 0.1em blue;
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-family: 'Quicksand','Times New Roman','Roboto', sans-serif;
+    font-size: 150px;
+    color: rgba(106, 65, 184, 1);
+  }
+h1#title.style {
+    font-family: 'Quicksand','DejaVu Serif','Bebas Neue', cursive;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 3;
+    font-variant: small-caps;
+   }
+h2 {
+    font-family: 'Quicksand','Bebas Neue', cursive;
+    text-align: center;
+    text-decoration: solid underline rgba(106, 65, 184, 1) 4px;
+    font-size: 70px;
+    color: rgba(106, 65, 184, 1);
+    letter-spacing: 0.3em;
+  }
+
+
+
+  .under {
+    text-decoration: underline red;
+  }
+  
+  .over {
+    text-decoration: wavy overline lime;
+  }
+  
+  .line {
+    text-decoration: line-through;
+  }
+  
+  .plain {
+    text-decoration: none;
+  }
+  
+  .underover {
+    text-decoration: dashed underline overline;
+  }
+  
+  .thick {
+    text-decoration: solid underline purple 4px;
+  }
+  
+  .blink {
+    text-decoration: blink;
+  }
